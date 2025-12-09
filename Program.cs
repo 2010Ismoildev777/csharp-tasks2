@@ -314,3 +314,29 @@
 // }
 // int minNumber = MinNumber(1, 2, 3, 4);
 // System.Console.WriteLine(minNumber);
+
+
+//Task9
+// int Min(int val1, int val2)
+// {
+//     int min = 9999;
+//     if(val1 < min) min = val1;
+//     if(val2 < min) min = val2;
+//     return min;
+// }
+
+// int min = Min(2, 1);
+// System.Console.WriteLine(min);
+
+
+//Task10
+// int Max(int val1, int val2)
+// {
+//     int max = -9999;
+//     if(val1 > max) max = val1;
+//     if(val2 > max) max = val2;
+//     return max;
+// }
+
+// int max = Max(2, 1);
+// System.Console.WriteLine(max);

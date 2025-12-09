@@ -290,13 +290,27 @@
 
 
 //Task7
-void IncrementArrayElements(int[] arr, int num)
-{
-    for (int i = 0; i < arr.Length; i++)
-    {
-        System.Console.Write((arr[i] += num) + " ");
-    }
-}
+// void IncrementArrayElements(int[] arr, int num)
+// {
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//         System.Console.Write((arr[i] += num) + " ");
+//     }
+// }
 
-int[] arr = new int[] { 1, 2, 3 };
-IncrementArrayElements(arr, 5);
+// int[] arr = new int[] { 1, 2, 3 };
+// IncrementArrayElements(arr, 5);
+
+
+//Task8
+// int MinNumber(int a, int b, int c, int d)
+// {
+//     int min = 9999;
+//     if(a < min) min = a;
+//     if(b < min) min = b;
+//     if(c < min) min = c;
+//     if(d < min) min = d;
+//     return min;
+// }
+// int minNumber = MinNumber(1, 2, 3, 4);
+// System.Console.WriteLine(minNumber);
